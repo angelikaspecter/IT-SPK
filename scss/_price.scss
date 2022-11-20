@@ -1,0 +1,354 @@
+@media (max-width: 374px) {
+    .price {
+        padding: 40px 0;
+        .section-title {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #001e42;
+            margin-bottom: 20px;
+        }
+        .section-desc {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #252d37;
+        }
+        .btn-box {
+            display: flex;
+            flex-direction: column;
+            & .btn-outline {
+                padding: 13px 16px;
+                outline: 2px solid #001e42;
+                outline-offset: -5px;
+                box-sizing: border-box;
+                border-radius: 0;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #001e42;
+                transform: matrix(1, 0, 0, 1, 0, 0);
+                margin-bottom: 15px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:hover {
+                    background: #f2f2f2;
+                }
+            }
+        }
+        .card {
+            border: 2px solid #001e42;
+            box-sizing: border-box;
+            border-radius: 0;
+            padding: 35px;
+            & .card-header {
+                padding: 0;
+                border: none;
+                background: transparent;
+                & .card-desc {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #001e42;
+                    margin-bottom: 15px;
+                }
+                & .card-title {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #001e42;
+                }
+            }
+            & .card-body {
+                padding: 0;
+                & .pricing-card-title {
+                    padding: 0;
+                    & span {
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 70px;
+                        line-height: 115%;
+                        text-align: center;
+                        color: #001e42;
+                        margin: 5px 0;
+                    }
+                    & small {
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #001e42;
+                    }
+                }
+                & span {
+                    margin-top: 18px;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #001e42;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 375px) and (max-width: 991px) {
+    .price {
+        padding: 40px 0;
+        .section-title {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #001e42;
+            margin-bottom: 20px;
+        }
+        .section-desc {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #252d37;
+        }
+        .btn-box {
+            display: flex;
+            flex-direction: column;
+            & .btn-outline {
+                width: 100%;
+                padding: 13px 16px;
+                outline: 2px solid #001e42;
+                outline-offset: -5px;
+                box-sizing: border-box;
+                border-radius: 0;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #001e42;
+                transform: matrix(1, 0, 0, 1, 0, 0);
+                margin-bottom: 15px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:hover {
+                    background: #f2f2f2;
+                }
+            }
+        }
+        .card {
+            border: 2px solid #001e42;
+            box-sizing: border-box;
+            border-radius: 0;
+            padding: 35px;
+            & .card-header {
+                padding: 0;
+                border: none;
+                background: transparent;
+                & .card-desc {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #001e42;
+                    margin-bottom: 15px;
+                }
+                & .card-title {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #001e42;
+                }
+            }
+            & .card-body {
+                padding: 0;
+                & .pricing-card-title {
+                    padding: 0;
+                    & span {
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 70px;
+                        line-height: 115%;
+                        text-align: center;
+                        color: #001e42;
+                        margin: 5px 0;
+                    }
+                    & small {
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #001e42;
+                    }
+                }
+                & span {
+                    margin-top: 18px;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #001e42;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .price {
+        padding: 40px 0;
+        .section-title {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #001e42;
+            margin-bottom: 20px;
+        }
+        .section-desc {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #252d37;
+        }
+        .btn-box {
+            display: flex;
+            flex-direction: row;
+            & .btn-outline {
+                padding: 13px 16px;
+                outline: 2px solid #001e42;
+                outline-offset: -5px;
+                box-sizing: border-box;
+                border-radius: 0;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #001e42;
+                transform: matrix(1, 0, 0, 1, 0, 0);
+                margin-right: 15px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &.btn-it {
+                    width: 157px;
+                    height: 60px;
+                }
+                &.btn-price-montage {
+                    width: 228px;
+                    height: 60px;
+                }
+                &:hover {
+                    background: #f2f2f2;
+                }
+            }
+        }
+        .card {
+            border: 2px solid #001e42;
+            box-sizing: border-box;
+            border-radius: 0;
+            padding: 35px;
+            & .card-header {
+                padding: 0;
+                border: none;
+                background: transparent;
+                & .card-desc {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #001e42;
+                    margin-bottom: 15px;
+                }
+                & .card-title {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #001e42;
+                }
+            }
+            & .card-body {
+                padding: 0;
+                & .pricing-card-title {
+                    padding: 0;
+                    & span {
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 70px;
+                        line-height: 115%;
+                        text-align: center;
+                        color: #001e42;
+                        margin: 5px 0;
+                    }
+                    & small {
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #001e42;
+                    }
+                }
+                & span {
+                    margin-top: 18px;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #001e42;
+                }
+            }
+        }
+    }
+}

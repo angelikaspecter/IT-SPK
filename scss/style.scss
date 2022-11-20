@@ -1,0 +1,27 @@
+@import "_outline";
+@import "_visually-hidden";
+@import "_mixins";
+@import "_header";
+@import "_promo";
+@import "_about";
+@import "_service";
+@import "_price";
+@import "_client";
+@import "_footer";
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    background: white;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
